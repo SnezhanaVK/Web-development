@@ -132,6 +132,42 @@
           inset -2px -2px 3px rgb(255 255 255 / 60%),
           inset 2px 2px 3px rgb(0 0 0 / 60%);
       }
+      ul {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+    .no-tasks {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: #333;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .button:hover {
+        background-color: #2980b9;
+    }
         
   
 
