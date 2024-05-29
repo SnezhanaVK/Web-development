@@ -1,0 +1,179 @@
+body {
+  background-color: #0d7377;
+  font-family:ARIAL;
+  text-align:center;
+}
+
+
+h1
+{
+  display: block;
+  font-size: 4em;
+  font-family:Arial Bold Italic;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  font-weight: bold;
+  text-align:center;
+  font-family:palatino linotype;
+}
+
+
+.b{
+  display: block;
+  width: 600px;
+  height: 80px;
+  
+  background:#696969;
+  float:center;
+}
+
+.test{
+  width: 100%;
+  text-align: lefts;
+}
+
+.text{
+  text-align: left;
+  font-family:segoe print;
+  font-size:25px;
+  color:#191970;
+}
+.v{
+  text-align: left;
+  font-family:segoe print;
+  font-size:25px;
+  color:#191970;
+}
+
+.center{
+  display: inline-block
+}
+
+li{
+   text-align: left;
+   list-style-type: none;
+   
+   
+  
+}
+
+input.Checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+#add{
+  color:#000000;
+  background:#D3D3D3;
+  width: 100px;
+  height:60px;
+  font-size:20px;
+  font-family:palatino linotype;
+}
+#delit{
+  color:#000000;
+  background:#8B0000;
+  width:100px;
+  height:60px;
+  font-size:20px;
+  font-family:palatino linotype;
+}
+.data{
+  text-align:left;
+  color: #D3D3D3;
+  font-size:15px;
+  font-family:palatino linotype;
+}
+
+
+#str{
+height:55px;
+width:600px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+.styled {
+  float: right;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(220 0 0 / 100%);
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 20%),
+    rgb(0 0 0 / 20%) 30%,
+    rgb(0 0 0 / 0%)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 60%),
+    inset -2px -2px 3px rgb(0 0 0 / 60%);
+}
+
+.styled:hover {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 60%),
+    inset 2px 2px 3px rgb(0 0 0 / 60%);
+}
+ul {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.no-tasks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #333;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+  
+
+
+
+
+
+
+
+
